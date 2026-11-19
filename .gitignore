@@ -1,0 +1,32 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Airflow local
+.airflow/
+airflow.db
+airflow.cfg
+standalone_admin_password.txt
+
+# Dados coletados localmente
+chegada/
+
+# Credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporarios
+*.log
+*.tmp
