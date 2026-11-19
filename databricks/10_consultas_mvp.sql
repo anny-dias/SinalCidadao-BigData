@@ -73,4 +73,3 @@ INNER JOIN workspace.sinal_cidadao.dim_municipio m
     ON f.codigo_ibge = m.codigo_ibge
 
 GROUP BY m.nome_municipio;
-GROUP BY m.nome_municipio;
